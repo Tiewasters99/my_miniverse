@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as THREE from 'three';
-
 const QuaintonLawMiniverse = () => {
   const mountRef = useRef(null);
   const sceneRef = useRef(null);
@@ -313,11 +312,31 @@ const QuaintonLawMiniverse = () => {
     scene.add(firmLibraryPlane);
 
     const bookTitles = [
-      'Read Me', 'Explore Me', 'Check Me Out', 'Read Me', 'Explore Me', 
-      'Check Me Out', 'Read Me', 'Explore Me', 'Check Me Out', 'Read Me', 
-      'Explore Me', 'Check Me Out', 'Read Me', 'Explore Me', 'Check Me Out', 
-      'Read Me', 'Explore Me', 'Check Me Out', 'Read Me', 'Explore Me', 
-      'Check Me Out', 'Read Me', 'Explore Me', 'Check Me Out', 'Agentic Theory'
+      'Agentic Theory',
+      'Agentic AI and Law',
+      'Law\'s Empire',
+      'Russia Company',
+      'Superintelligence',
+      'Alignment Problem',
+      'Liberation Theologies',
+      'You Might be a Robot',
+      'Black Box Society',
+      'AI Legal Personhood',
+      'Unknowable Unknown',
+      'Logical Calculus',
+      'Augmenting LLMs',
+      'Read Me',
+      'Explore Me',
+      'Check Me Out',
+      'Read Me',
+      'Explore Me',
+      'Check Me Out',
+      'Read Me',
+      'Explore Me',
+      'Check Me Out',
+      'Read Me',
+      'Explore Me',
+      'Check Me Out'
     ];
     
     for (let i = 0; i < 25; i++) {
@@ -873,10 +892,212 @@ const QuaintonLawMiniverse = () => {
             </div>
           )}
 
-          {selectedContent.type === 'book' && selectedContent.label === 'Read Me' && (
+          {selectedContent.type === 'book' && selectedContent.label === 'Agentic Theory' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1ebvUaV9y3LvxpmgItgSTkMmHa4Ls_ZIZ/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: Agentic Theory
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Agentic AI and Law' && (
             <div style={{ marginBottom: '20px' }}>
               <h3 style={{ fontSize: '18px', color: '#4a2c1a', marginBottom: '15px' }}>
-                Featured Article
+                Agentic AI and the Practice of Law
+              </h3>
+              
+              <a href="https://docs.google.com/document/d/1kby4LMs0PVUCy8IA0qWD5LWh54jr5Vxb1hftmfPw4Uk/edit?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px', marginBottom: '15px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read Full Paper
+              </a>
+              
+              <div style={{ padding: '20px', background: '#f5f5f5', borderRadius: '10px' }}>
+                <p style={{ margin: '0 0 10px 0', fontSize: '15px', lineHeight: '1.6', fontStyle: 'italic' }}>
+                  Trust, Imagination, and the New Calculus of Liability
+                </p>
+                <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.6', color: '#666' }}>
+                  An exploration of how agentic AI transforms legal practice, professional responsibility, and liability frameworks.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Law\'s Empire' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/18_1XREv0fHn_3exOWgMntjd-jWnE_SED/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: Law's Empire
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Russia Company' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1RcVU6tKOYtABxR4hlMUdXmRPjI8ZxHeP/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: The Origin and Early History of the Russia or Muscovy Company
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Superintelligence' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1YikBAleixDVc2fCMhPTCAhFEkNZYV04i/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: Superintelligence
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Alignment Problem' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1wNTyTDzbx_dsP7mlOo_7-6BLVjMJDVHU/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: The Alignment Problem
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Liberation Theologies' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1GjVSJ0q-7Y7IcEPxaUk8G88nXHX9I8k2/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: Decolonizing Liberation Theologies
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'You Might be a Robot' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1bjgLlKHPQCEGNykgBPN2CuORnalP4929/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: You Might be a Robot
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Black Box Society' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1ZgrAtpCpWWStD8mtx5bayV93w232Uard/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: The Black Box Society
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'AI Legal Personhood' && (
+            <div style={{ marginBottom: '20px' }}>
+              <a href="https://drive.google.com/file/d/1Cw9hBnjo9QR-blGMizc1CQp-MwG7Rjsp/view?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read: The Ethics and Challenges of Legal Personhood for AI
+              </a>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Unknowable Unknown' && (
+            <div style={{ marginBottom: '20px' }}>
+              <h3 style={{ fontSize: '18px', color: '#4a2c1a', marginBottom: '15px' }}>
+                The Unknowable Unknown
+              </h3>
+              
+              <a href="https://docs.google.com/document/d/1pB10z2YfGgHVYPf5kl9Pj62NMVvlPoGs/edit?usp=sharing" 
+                target="_blank" rel="noopener noreferrer"
+                style={{ display: 'block', padding: '25px',
+                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
+                  color: 'white', textDecoration: 'none', borderRadius: '10px', marginBottom: '15px',
+                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
+                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
+                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
+                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                Read Full Paper
+              </a>
+              
+              <div style={{ padding: '20px', background: '#f5f5f5', borderRadius: '10px' }}>
+                <p style={{ margin: '0 0 10px 0', fontSize: '15px', lineHeight: '1.6', fontStyle: 'italic' }}>
+                  The Case for AI Arms Control
+                </p>
+                <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.6', color: '#666' }}>
+                  Why a global cap on AI compute is essential for human survival.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {selectedContent.type === 'book' && selectedContent.label === 'Logical Calculus' && (
+            <div style={{ marginBottom: '20px' }}>
+              <h3 style={{ fontSize: '18px', color: '#4a2c1a', marginBottom: '15px' }}>
+                Featured Paper
               </h3>
               
               <a href="https://drive.google.com/file/d/1iBAI7spq1vJiP7PNzal3d4yY-VaHOWHQ/view?usp=sharing" 
@@ -888,21 +1109,21 @@ const QuaintonLawMiniverse = () => {
                   boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
                 onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
                 onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-                The Unknowable Unknown: The Case for AI Arms Control
+                A Logical Calculus of Ideas Immanent in Nervous Activity
               </a>
               
               <div style={{ padding: '20px', background: '#f5f5f5', borderRadius: '10px' }}>
                 <p style={{ margin: '0 0 10px 0', fontSize: '15px', lineHeight: '1.6', fontStyle: 'italic' }}>
-                  "Why a Global Cap on AI Compute Is Essential for Human Survival"
+                  McCulloch & Pitts (1943)
                 </p>
                 <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.6', color: '#666' }}>
-                  An examination of the accelerating AI race between the U.S. and China, and why an international treaty to cap computational power may be humanity's best path forward.
+                  The foundational paper that introduced the first mathematical model of artificial neurons, laying the groundwork for modern neural networks and artificial intelligence.
                 </p>
               </div>
             </div>
           )}
 
-          {selectedContent.type === 'book' && selectedContent.label === 'Explore Me' && (
+          {selectedContent.type === 'book' && selectedContent.label === 'Augmenting LLMs' && (
             <div style={{ marginBottom: '20px' }}>
               <h3 style={{ fontSize: '18px', color: '#4a2c1a', marginBottom: '15px' }}>
                 Featured Research Paper
@@ -928,22 +1149,6 @@ const QuaintonLawMiniverse = () => {
                   By Wang et al. (Microsoft Research & UC Santa Barbara). A framework that enables large language models to cache and utilize long-form previous context through a decoupled memory architecture.
                 </p>
               </div>
-            </div>
-          )}
-
-          {selectedContent.type === 'book' && selectedContent.label === 'Agentic Theory' && (
-            <div style={{ marginBottom: '20px' }}>
-              <a href="https://drive.google.com/file/d/1ebvUaV9y3LvxpmgItgSTkMmHa4Ls_ZIZ/view?usp=drivesdk" 
-                target="_blank" rel="noopener noreferrer"
-                style={{ display: 'block', padding: '25px',
-                  background: 'linear-gradient(135deg, #4a2c1a 0%, #5a3c2a 100%)',
-                  color: 'white', textDecoration: 'none', borderRadius: '10px',
-                  fontSize: '17px', fontWeight: 'bold', textAlign: 'center',
-                  boxShadow: '0 4px 15px rgba(74, 44, 26, 0.3)', transition: 'transform 0.2s' }}
-                onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
-                onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-                Read: Agentic Theory
-              </a>
             </div>
           )}
 
@@ -1233,7 +1438,7 @@ const QuaintonLawMiniverse = () => {
             </div>
           )}
 
-          {(selectedContent.type === 'book' && !['Read Me', 'Explore Me', 'Agentic Theory'].includes(selectedContent.label)) && (
+          {(selectedContent.type === 'book' && !['Agentic Theory', 'Agentic AI and Law', 'Law\'s Empire', 'Russia Company', 'Superintelligence', 'Alignment Problem', 'Liberation Theologies', 'You Might be a Robot', 'Black Box Society', 'AI Legal Personhood', 'Unknowable Unknown', 'Logical Calculus', 'Augmenting LLMs'].includes(selectedContent.label)) && (
             <div>
               <div style={{ padding: '20px', background: '#f5f5f5', borderRadius: '10px' }}>
                 <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.6' }}>
